@@ -1,5 +1,9 @@
+# Custom Branch edited to add access to secondary ttyUSB ports.
+👉 Head over to the original [GitHub repository](https://github.com/GitGab19/addon-voltronic-inverters)!
+
+
 # Voltronic Add-on for Home Assistant
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FGitGab19%2Faddon-voltronic-inverters)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fkhan3962%2Faddon-voltronic-inverters)
 
 Effortlessly monitor and control Voltronic-based inverters directly from Home Assistant! This add-on provides seamless integration with MQTT for real-time data exchange, supporting various communication protocols, including serial, USB-serial, and USB.
 
@@ -31,7 +35,7 @@ The original repository provides the core logic for interacting with Voltronic i
 
 We’re always excited to see contributions! Whether it’s a bug report, feature request, or pull request, your input helps improve this add-on for everyone.
 
-👉 Head over to the [GitHub repository](https://github.com/your-repo/addon-voltronic-inverters) to get started!
+👉 Head over to the [GitHub repository](https://github.com/GitGab19/addon-voltronic-inverters) to get started!
 
 ---
 
