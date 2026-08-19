@@ -18,12 +18,22 @@ fi
 
 # Update the inverter.conf file
 DEVICE=$(bashio::config 'device_type')
+PATH=$(bashio::config 'custom_path')
 case "${DEVICE}" in
     serial)
         DEVICE_PATH="/dev/ttyS0"
         ;;
     usb-serial)
         DEVICE_PATH="/dev/ttyUSB0"
+        ;;
+    usb-serial1)
+        DEVICE_PATH="/dev/ttyUSB1"
+        ;;
+    usb-serial2)
+        DEVICE_PATH="/dev/ttyUSB2"
+        ;;
+    custom)
+        DEVICE_PATH="${PATH}"
         ;;
     usb)
         DEVICE_PATH="/dev/hidraw0"
